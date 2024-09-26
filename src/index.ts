@@ -1,11 +1,12 @@
+
 import { makeGeminiRequest } from "./requests/gemini-request";
-import { createUGCPost } from "./requests/linkedin-request";
-//createUGCPost();
+import { postImageToLinkedIn } from "./requests/linkedin-request";
+
 
 async function main() {
     try {
         const generatedContent = await makeGeminiRequest();
-        await createUGCPost(generatedContent);
+        await postImageToLinkedIn(generatedContent);
     } catch (error) {
         console.error('Error in main function:', error);
     }
