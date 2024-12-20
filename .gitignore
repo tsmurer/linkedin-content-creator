@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript output folder
+dist/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: any .vscode workspace settings
+.vscode/
+
+# Optional: MacOS generated files
+*.DS_Store
+
+# Optional: Linux files
+*.swp

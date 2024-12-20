@@ -1,0 +1,36 @@
+{
+  "name": "linkedin-content-creator",
+  "version": "1.0.0",
+  "description": "A linkedin dynamic content creator",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsmurer/linkedin-content-creator.git"
+  },
+  "keywords": [
+    "linkedin",
+    "content",
+    "creator"
+  ],
+  "author": "tsmurer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsmurer/linkedin-content-creator/issues"
+  },
+  "homepage": "https://github.com/tsmurer/linkedin-content-creator#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.19.0",
+    "@types/axios": "^0.9.36",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  }
+}
